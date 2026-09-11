@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="form2" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+</head>
+<body>
+    <!-- label yang terhubung dengan input -->
+     <label for="email"> alamat email :</label>
+     <table></table>
+     <input type="email" id="email" name="email" required 
+     placeholder="contoh@email.com">
+
+<br>
+
+ <!-- texterea-->
+<label for="pesan">pesan:</label>      
+<textarea id="pesan" name="pesan" rows="5" cols="40"
+            placeholder="tuliskan pesan kamu disini..."></textarea> 
+<br>
+
+<!-- Select / Dropdown -->
+<label for="jurusan">Pilih Jurusan:</label>
+<select id="jurusan" name="jurusan">
+  <option value="">-- Pilih Jurusan --</option>
+  <optgroup label="Teknologi Informasi">
+    <option value="rpl">Rekayasa Perangkat Lunak</option>
+    <option value="tkj">Teknik Komputer Jaringan</option>
+  </optgroup>
+  <optgroup label="Bisnis">
+    <option value="ak">Akuntansi</option>
+    <option value="pm">Pemasaran</option>
+  </optgroup>
+</select>
+
+<!-- Fieldset & Legend -->
+<fieldset>
+  <legend>Data Pribadi</legend>
+  <label for="nama">Nama:</label>
+  <input type="text" id="nama" name="nama">
+</fieldset>
+</body>
+</html>
