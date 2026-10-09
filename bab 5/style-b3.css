@@ -1,0 +1,73 @@
+       /* --- KODE CSS DARI FOTO --- */
+        
+        .kotak-relative {
+            position: relative;
+            top: 10px;    /* Geser 10px ke bawah dari posisi asli */
+            left: 20px;   /* Geser 20px ke kanan dari posisi asli */
+            /* Tambahan untuk visualisasi */
+            background-color: lightgreen;
+            padding: 20px;
+            border: 2px solid green;
+        }
+
+        /* position: absolute - keluar dari alur, posisi relatif ke parent */
+        .parent {
+            position: relative; /* PENTING: parent harus relative/absolute/fixed */
+            width: 300px;
+            height: 200px;
+            /* Tambahan untuk visualisasi */
+            background-color: lightgray;
+            border: 2px dashed gray;
+            margin-top: 40px;
+        }
+        
+        .badge {
+            position: absolute;
+            top: 10px;
+            right: 10px; /* Pojok kanan atas parent */
+            background: red;
+            color: white;
+            border-radius: 50%;
+            /* Tambahan untuk visualisasi */
+            padding: 5px 10px;
+            font-weight: bold;
+        }
+
+        /* position: fixed - tetap di layar walau di-scroll */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #1A5276;
+            z-index: 100; /* Pastikan di atas elemen lain */
+            /* Tambahan untuk visualisasi */
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* position: sticky - menempel saat mencapai posisi tertentu */
+        .section-header {
+            position: sticky;
+            top: 60px; /* Menempel di 60px dari atas viewport (di bawah navbar) */
+            background: white;
+            z-index: 10;
+            /* Tambahan untuk visualisasi */
+            padding: 10px;
+            border-bottom: 2px solid black;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        /* --- CSS TAMBAHAN UNTUK SCROLLING DEMO --- */
+        body {
+            font-family: sans-serif;
+            margin: 0; /* Reset margin untuk .navbar fixed */
+            padding-top: 70px; /* Ruang agar konten tidak tertutup navbar di awal */
+            height: 1500px; /* Memaksa halaman agar bisa di-scroll */
+            background-color: #f0f0f0;
+        }
+        .container {
+            padding: 20px;
+        }

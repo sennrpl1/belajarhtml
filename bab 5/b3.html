@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS Position</title>
+    <link rel="stylesheet" href="style-b3.css">
+</head>
+<body>
+
+    <!-- Demo position: fixed -->
+    <div class="navbar">
+        Ini adalah Navbar (position: fixed) - Tetap di atas saat di-scroll
+    </div>
+
+    <div class="container">
+        <h2>Contoh Position CSS</h2>
+        
+        <!-- Demo position: relative -->
+        <p>Kotak di bawah ini menggunakan <code>position: relative</code>.</p>
+        <div class="kotak-relative">
+            Saya geser 10px ke bawah dan 20px ke kanan dari tempat saya seharusnya.
+        </div>
+
+        <!-- Demo position: absolute -->
+        <p>Kotak abu-abu adalah <code>.parent</code> (relative), dan lencana merah adalah <code>.badge</code> (absolute).</p>
+        <div class="parent">
+            Kotak Parent
+            <div class="badge">Baru!</div>
+        </div>
+
+        <br><br><br>
+
+        <!-- Demo position: sticky -->
+        <div class="section-header">
+            Bagian 1 (position: sticky) - Scroll terus ke bawah untuk melihat efeknya!
+        </div>
+        <p>aku ganteng</p>
+        <br><br><br>
+        
+        <div class="section-header">
+            Bagian 2 (position: sticky) - Akan menimpa sticky sebelumnya saat di-scroll
+        </div>
+        <p>halo semuanya</p>
+        
+        <p><i>Scroll ke atas dan ke bawah untuk melihat bagaimana <code>fixed</code> dan <code>sticky</code> bekerja.</i></p>
+
+    </div>
+
+</body>
+</html>

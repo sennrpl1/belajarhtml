@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS Display & Visibility</title>
+    <link rel="stylesheet" href="style-b2.css">
+</head>
+<body>
+
+    <h3>Contoh Navbar Horizontal</h3>
+    <!-- Menerapkan CSS untuk nav, li, dan a -->
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Profil</a></li>
+            <li><a href="#">Layanan</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <h3>Perbandingan <code>display: none</code> dan <code>visibility: hidden</code></h3>
+    <div class="kotak-demo">
+        <p>1. Paragraf normal pertama. Elemen ini tampil seperti biasa.</p>
+        
+        <!-- Menerapkan class .tersembunyi -->
+        <p class="tersembunyi">2. Paragraf ini menggunakan class "tersembunyi" (display: none). Elemen ini hilang sepenuhnya dan tidak memakan ruang.</p>
+        
+        <p>3. Paragraf normal kedua. Posisinya langsung naik menggantikan posisi paragraf kedua yang hilang.</p>
+        
+        <!-- Menerapkan class .transparan -->
+        <p class="transparan">4. Paragraf ini menggunakan class "transparan" (visibility: hidden). Elemennya tidak terlihat, tetapi ruang kosongnya tetap dipertahankan.</p>
+        
+        <p>5. Paragraf normal ketiga. Anda bisa melihat ada ruang kosong di atas teks ini karena paragraf keempat disembunyikan menggunakan visibility.</p>
+    </div>
+
+</body>
+</html>
