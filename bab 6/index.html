@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Taruna Dev — Unit Produksi dan Software House Sekolah. Solusi website, aplikasi, dan desain digital."
+    />
+    <title>Taruna Dev — Software House Sekolah</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navigasi utama">
+        <a class="brand" href="#beranda" aria-label="Taruna Dev beranda">
+          <span class="brand-mark">&lt;/&gt;</span>
+          <span>taruna<span class="brand-accent">dev</span></span>
+        </a>
+        <input class="menu-checkbox" type="checkbox" id="menuToggle" aria-label="Buka menu" />
+        <label class="menu-toggle" for="menuToggle" aria-label="Buka menu">
+          <span></span><span></span><span></span>
+        </label>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#harga">Harga</a></li>
+          <li><a href="#showreel">Showreel</a></li>
+          <li>
+            <a class="nav-cta" href="#pesan">Pesan Jasa <span>↗</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 1. HERO SECTION -->
+      <section class="hero section" id="beranda">
+        <div class="hero-glow glow-one"></div>
+        <div class="hero-glow glow-two"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="status-dot"></span> UNIT PRODUKSI DIGITAL SEKOLAH
+            </div>
+            <h1>
+              Solusi Digital.<br /><span class="gradient-text">Generasi Muda.</span><br />Karya Profesional.
+            </h1>
+            <p class="hero-description">
+              Mengembangkan website, aplikasi mobile, dan sistem informasi profesional dengan standar industri oleh siswa/i terampil.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#pesan">Mulai Proyek <span>↗</span></a>
+              <a class="button button-ghost" href="#layanan"><span class="play-icon">▶</span> Lihat Layanan</a>
+            </div>
+            <div class="hero-proof">
+              <div class="avatar-stack">
+                <span>TD</span><span>UI</span><span>WD</span>
+              </div>
+              <p>
+                <strong>Tim Kreatif & Teknis</strong><br />
+                <small>Belajar, berkarya, berinovasi.</small>
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="code-window">
+              <div class="window-top">
+                <div class="window-dots"><i></i><i></i><i></i></div>
+                <span>taruna-dev / main.js</span>
+                <span class="window-more">•••</span>
+              </div>
+              <div class="code-content">
+                <div class="code-line">
+                  <span class="line-number">01</span>
+                  <span><b class="code-purple">const</b> <em>tarunaDev</em> = <b class="code-purple">new</b> <strong>SoftwareHouse()</strong>;</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">02</span>
+                  <span class="indent"><b class="code-purple">async function</b> <em>buildProject</em>() {</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">03</span>
+                  <span class="indent2 code-white"><b class="code-purple">await</b> tarunaDev.createWebsite();</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">04</span>
+                  <span class="indent2 gradient-code">return "Success"<span class="cursor">_</span></span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">05</span>
+                  <span class="indent">}</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-number">06</span>
+                  <span><span class="code-green">// Solusi IT Terbaik untuk Anda</span></span>
+                </div>
+              </div>
+              <div class="code-bottom">
+                <span><i class="status-dot"></i> Systems Operational</span>
+                <span>HTML · CSS · JS</span>
+              </div>
+            </div>
+
+            <div class="floating-card float-card-top">
+              <span class="float-icon">✦</span>
+              <div>
+                <strong>UI/UX Intuitive</strong>
+                <small>Modern & User Friendly</small>
+              </div>
+            </div>
+            <div class="floating-card float-card-bottom">
+              <span class="float-icon purple-icon">⌘</span>
+              <div>
+                <strong>Clean Code</strong>
+                <small>Fast & Optimized</small>
+              </div>
+              <span class="mini-check">✓</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container hero-stats">
+          <div>
+            <strong>100<span>%</span></strong>
+            <small>Karya Asli Siswa</small>
+          </div>
+          <div>
+            <strong>24<span>/7</span></strong>
+            <small>Dukungan Konsultasi</small>
+          </div>
+          <div>
+            <strong>Standard<span>+</span></strong>
+            <small>Kualitas Industri</small>
+          </div>
+          <p>DESIGN <span>✳</span> DEVELOP <span>✳</span> DELIVER</p>
+        </div>
+      </section>
+
+      <!-- 2. KATALOG JASA IT -->
+      <section class="section services-section" id="layanan">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">LAYANAN KAMI</span>
+              <h2>Teknologi untuk<br /><span class="gradient-text">Kebutuhan Digital Anda.</span></h2>
+            </div>
+            <p>Jasa IT berkualitas tinggi yang dikerjakan oleh siswa/i terampil di bawah bimbingan tenaga ahli.</p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="service-icon icon-blue">&lt;/&gt;</div>
+              <span class="card-number">01 / WEB DEVELOPMENT</span>
+              <h3>Website Development</h3>
+              <p>Pembuatan website profil sekolah, landing page bisnis, perusahaan, atau toko online yang cepat dan responsif.</p>
+              <a href="#pesan" class="text-link">Pesan Layanan <span>↗</span></a>
+              <div class="card-glow"></div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon icon-purple">📱</div>
+              <span class="card-number">02 / MOBILE APP</span>
+              <h3>Mobile App Design</h3>
+              <p>Desain antarmuka (UI/UX) dan pengembangan aplikasi Android/iOS yang intuitif serta modern.</p>
+              <a href="#pesan" class="text-link">Pesan Layanan <span>↗</span></a>
+              <div class="card-glow purple-glow"></div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon icon-green">⚙️</div>
+              <span class="card-number">03 / SYSTEM</span>
+              <h3>Sistem Informasi</h3>
+              <p>Pengembangan sistem ujian online, absensi digital, manajemen sekolah, serta aplikasi custom lainnya.</p>
+              <a href="#pesan" class="text-link">Pesan Layanan <span>↗</span></a>
+              <div class="card-glow green-glow"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. TABEL DAFTAR PAKET HARGA -->
+      <section class="section pricing-section" id="harga">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <span class="eyebrow">PAKET HARGA</span>
+              <h2>Pilih Paket Layanan.</h2>
+            </div>
+            <p>Fleksibel sesuai anggaran dan kebutuhan skala proyek Anda.</p>
+          </div>
+          <div class="pricing-grid">
+            <!-- Paket Hemat -->
+            <article class="price-card">
+              <span class="plan-label">STARTER</span>
+              <h3>Paket Hemat</h3>
+              <p class="plan-desc">Cocok untuk landing page & promosi produk.</p>
+              <div class="price">Rp 500<span>rb</span></div>
+              <p class="price-note">mulai dari / proyek</p>
+              <div class="price-divider"></div>
+              <ul class="feature-list">
+                <li>✓ 1 Halaman Responsif</li>
+                <li>✓ Gratis Domain .com (1 Thn)</li>
+                <li>✓ Desain Modern & Cepat</li>
+                <li>✓ Revisi 2x</li>
+              </ul>
+              <a class="button button-outline" href="#pesan">Pilih Paket <span>↗</span></a>
+            </article>
+
+            <!-- Paket Profil Bisnis (Featured) -->
+            <article class="price-card featured-price">
+              <div class="popular-tag">PALING POPULER</div>
+              <span class="plan-label">BUSINESS</span>
+              <h3>Profil Bisnis / Sekolah</h3>
+              <p class="plan-desc">Solusi lengkap untuk instansi & bisnis.</p>
+              <div class="price">Rp 1,5<span>jt</span></div>
+              <p class="price-note">mulai dari / proyek</p>
+              <div class="price-divider"></div>
+              <ul class="feature-list">
+                <li>✓ Hingga 5 Halaman</li>
+                <li>✓ Integrasi Form & WhatsApp</li>
+                <li>✓ Hosting & Domain (1 Thn)</li>
+                <li>✓ Maintenance Gratis 1 Bulan</li>
+                <li>✓ Revisi 3x</li>
+              </ul>
+              <a class="button button-primary full-button" href="#pesan">Pilih Paket <span>↗</span></a>
+            </article>
+
+            <!-- Paket Custom -->
+            <article class="price-card">
+              <span class="plan-label">CUSTOM</span>
+              <h3>Sistem / Custom App</h3>
+              <p class="plan-desc">Sistem kompleks & fitur kustomisasi.</p>
+              <div class="price custom-price">Mulai Rp 3jt</div>
+              <p class="price-note">harga disesuaikan kebutuhan</p>
+              <div class="price-divider"></div>
+              <ul class="feature-list">
+                <li>✓ Aplikasi Web / Mobile Custom</li>
+                <li>✓ Database & Fitur Kompleks</li>
+                <li>✓ Dokumentasi Sistem Lengkap</li>
+                <li>✓ Support & Maintenance</li>
+              </ul>
+              <a class="button button-outline" href="#pesan">Hubungi Kami <span>↗</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. VIDEO SHOWREEL KARYA -->
+      <section class="section showcase-section" id="showreel">
+        <div class="container showcase-grid">
+          <div class="showcase-copy">
+            <span class="eyebrow">SHOWREEL KARYA</span>
+            <h2>Lihat Cuplikan<br /><span class="gradient-text">Hasil Proyek Kami.</span></h2>
+            <p>Saksikan kompilasi hasil karya, proses kreatif, dan dedikasi tim Taruna Dev dalam setiap proyek digital.</p>
+            <div class="showcase-points">
+              <span><i>✓</i> Kualitas Terjamin</span>
+              <span><i>✓</i> Proses Transparan</span>
+              <span><i>✓</i> Penuh Inovasi</span>
+            </div>
+          </div>
+          <div class="video-card">
+            <div class="video-wrapper">
+              <iframe 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="Taruna Dev Showreel"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="video-caption">
+              <div>
+                <strong>Behind the Build</strong>
+                <small>Video Profil & Portfolio Taruna Dev</small>
+              </div>
+              <span class="video-duration">SHOWREEL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. FORM PEMESANAN JASA (Kirim ke WA) -->
+      <section class="section contact-section" id="pesan">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <span class="eyebrow">PUNYA IDE? CERITAKAN.</span>
+            <h2>
+              Mari wujudkan<br /><span class="gradient-text"
+                >ide berikutnya.</span
+              >
+            </h2>
+            <p>
+              Ceritakan kebutuhanmu melalui formulir. Tim Taruna Dev akan
+              meninjau detail proyek dan menyiapkan langkah berikutnya.
+            </p>
+            <div class="contact-note">
+              <span class="note-icon">✉</span>
+              <div>
+                <strong>Mulai dengan percakapan</strong
+                ><small>Isi kebutuhan proyekmu dengan jelas.</small>
+              </div>
+            </div>
+            <div class="contact-note">
+              <span class="note-icon">⌁</span>
+              <div>
+                <strong>Solusi sesuai kebutuhan</strong
+                ><small>Paket dan fitur dapat didiskusikan.</small>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form reveal" action="#" method="get">
+            <div class="form-heading">
+              <h3>Form pemesanan jasa</h3>
+              <p>Kolom bertanda * wajib diisi.</p>
+            </div>
+            <div class="form-row">
+              <label for="name">Nama lengkap *</label
+              ><input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Contoh: Adi Pratama"
+                required
+                minlength="2"
+              />
+            </div>
+            <div class="form-row">
+              <label for="email">Email aktif *</label
+              ><input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="nama@email.com"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label for="service">Layanan yang dibutuhkan *</label
+              ><select id="service" name="service" required>
+                <option value="">Pilih layanan</option>
+                <option>Website Development</option>
+                <option>Aplikasi & Sistem</option>
+                <option>UI/UX & Desain</option>
+                <option>Landing Page</option>
+                <option>Company Profile</option>
+                <option>Web Solution / Custom</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="budget">Perkiraan anggaran</label
+              ><select id="budget" name="budget">
+                <option value="">Pilih anggaran (opsional)</option>
+                <option>Di bawah Rp500.000</option>
+                <option>Rp500.000–Rp1.000.000</option>
+                <option>Di atas Rp1.000.000</option>
+                <option>Belum ditentukan</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="details">Ceritakan kebutuhan proyek *</label
+              ><textarea
+                id="details"
+                name="details"
+                rows="4"
+                placeholder="Fitur, tujuan website, target pengguna, dan lainnya..."
+                required
+                minlength="10"
+              ></textarea>
+            </div>
+            <button class="button button-primary submit-button" type="submit">
+              Kirim permintaan <span>↗</span>
+            </button>
+            <p class="form-disclaimer">
+              Demo formulir HTML: belum terhubung ke server.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <a class="brand" href="#beranda">
+          <span class="brand-mark">&lt;/&gt;</span>
+          <span>taruna<span class="brand-accent">dev</span></span>
+        </a>
+        <p>Unit Produksi & Software House Sekolah.</p>
+        <a href="#beranda" class="back-top">Kembali ke atas ↑</a>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 Taruna Dev. All rights reserved.</span>
+        <span>DESIGNED WITH <b>♥</b> & CODE</span>
+      </div>
+    </footer>
+  </body>
+</html>
